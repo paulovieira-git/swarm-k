@@ -1,8 +1,11 @@
-SWARM-K JSON Database — illustrative starter dataset
+SWARM-C 
+
+
+JSON Database — illustrative starter dataset
 
 Each .json file is a logical collection containing an array of JSON documents. IDs and sample measurements are illustrative, not validated scientific metric definitions. Timestamps use ISO 8601 UTC. Keep IDs stable and validate incoming documents through the API.
 
-[! NO IMAGE](./images/mermaid-diagram.png)
+![NO IMAGE](./images/mermaid-diagram.png)
 
 The logic is as follows:
 - A swarm can have multiple agents.
