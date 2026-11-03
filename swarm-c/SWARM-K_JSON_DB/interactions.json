@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "interaction_001",
+    "swarm_id": "swarm_001",
+    "episode_id": "episode_001",
+    "timestamp": "2026-11-03T10:02:15Z",
+    "interaction_type": "message",
+    "sender": "agent_001",
+    "receivers": [
+      "agent_002",
+      "agent_003"
+    ],
+    "content": {
+      "protocol": "ROS2",
+      "message_type": "target_detected",
+      "payload": {
+        "target_id": "target_01",
+        "position": {
+          "x": 120.5,
+          "y": 85.2,
+          "z": 10.0
+        },
+        "confidence": 0.94
+      }
+    },
+    "communication": {
+      "latency_ms": 25,
+      "delivery_status": "delivered"
+    }
+  }
+]

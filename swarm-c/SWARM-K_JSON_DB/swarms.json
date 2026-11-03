@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "swarm_001",
+    "name": "Drone Search Swarm",
+    "swarm_type": "heterogeneous",
+    "version": "1.0",
+    "status": "active",
+    "agent_ids": [
+      "agent_001",
+      "agent_002",
+      "agent_003"
+    ],
+    "configuration": {
+      "communication_protocol": "ROS2",
+      "coordination_strategy": "distributed",
+      "decision_strategy": "consensus"
+    },
+    "metadata": {
+      "domain": "robotics",
+      "platform": "simulation",
+      "created_at": "2026-11-03T10:00:00Z"
+    }
+  }
+]

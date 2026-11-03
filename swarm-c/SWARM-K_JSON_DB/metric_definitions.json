@@ -1,0 +1,151 @@
+[
+  {
+    "_id": "metric_cooperation",
+    "name": "Cooperation",
+    "category": "collective_behaviour",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "cooperation_score_v1",
+      "parameters": [
+        "joint_actions",
+        "shared_goals",
+        "successful_collaborations"
+      ]
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_coordination",
+    "name": "Coordination",
+    "category": "collective_behaviour",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "coordination_score_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_communication",
+    "name": "Communication",
+    "category": "interaction",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "communication_score_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_emergence",
+    "name": "Emergence",
+    "category": "collective_behaviour",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "emergence_score_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_self_organisation",
+    "name": "Self-organisation",
+    "category": "collective_behaviour",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "self_organisation_score_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_robustness",
+    "name": "Robustness",
+    "category": "resilience",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "robustness_score_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_adaptability",
+    "name": "Adaptability",
+    "category": "resilience",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "adaptability_score_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_collective_efficiency",
+    "name": "Collective efficiency",
+    "category": "performance",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "collective_efficiency_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "_id": "metric_decision_quality",
+    "name": "Decision-making quality",
+    "category": "decision_making",
+    "unit": "score",
+    "scale": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "calculation": {
+      "method": "custom",
+      "formula_id": "decision_quality_v1"
+    },
+    "version": "1.0",
+    "enabled": true
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "agent_001",
+    "swarm_id": "swarm_001",
+    "name": "Drone Alpha",
+    "agent_type": "UAV",
+    "role": "leader",
+    "capabilities": [
+      "navigation",
+      "communication",
+      "obstacle_detection"
+    ],
+    "status": "active"
+  },
+  {
+    "_id": "agent_002",
+    "swarm_id": "swarm_001",
+    "name": "Drone Beta",
+    "agent_type": "UAV",
+    "role": "searcher",
+    "capabilities": [
+      "navigation",
+      "image_detection",
+      "communication"
+    ],
+    "status": "active"
+  },
+  {
+    "_id": "agent_003",
+    "swarm_id": "swarm_001",
+    "name": "Drone Gamma",
+    "agent_type": "UAV",
+    "role": "searcher",
+    "capabilities": [
+      "navigation",
+      "mapping",
+      "communication"
+    ],
+    "status": "active"
+  }
+]
