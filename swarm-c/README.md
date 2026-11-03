@@ -1,20 +1,20 @@
 # SWARM-C
 SWARM-C Dataset Catalogue 1.0
-que serviria de base à selecção, integração e normalização dos dados.
 
-construir o inventário do SWARM-C
-O SWARM-C é um inventário, agora iniciado com 20 a 30 datasets, benchmarks e recursos experimentais, com os seguintes campos:
-- Nome e referência científica.
-- URL de acesso.
-- Tipo de enxame.
-- Número de agentes.
-- Tipo de episódios.
-- Existência de mensagens e interacções.
-- Existência de decisões e resultados.
-- Formato dos dados.
-- Licença.
-- Adequação ao SWARM-C.
-- Métricas que poderão ser calculadas pelo SWARM-M.
-O resultado seria o SWARM-C Dataset Catalogue 1.0, que serviria de base à selecção, integração e normalização dos dados.
+which would serve as a basis for the selection, integration, and normalization of data.
+The SWARM-C Dataset Catalogue 1.0 serves as a basis for the selection, integration, and normalization of data. SWARM-C is founded on real scientific resources.
 
-Acho que devemos começar por este catálogo antes de desenvolver a infraestrutura de armazenamento. Assim, o SWARM-C nasce apoiado em recursos científicos reais, em vez de começarmos por definir uma estrutura de dados sem conhecer suficientemente os dados que iremos integrar.
+SWARM-C is an inventory, now started with 20 to 30 datasets, benchmarks, and experimental resources, with the following fields:
+- Name and scientific reference.
+- Access URL.
+- Type of swarm.
+- Number of agents.
+- Type of episodes.
+- Presence of messages and interactions.
+- Presence of decisions and outcomes.
+- Data format.
+- License.
+- Suitability for SWARM-C.
+- Metrics that could be calculated by SWARM-M.
+
+
