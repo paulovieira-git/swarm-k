@@ -1,6 +1,7 @@
 # SWARM Mobile Agent — Flutter
 
 Protótipo de aplicação para três telemóveis/agentes.
+![not found](./images/app-img.jpg)
 
 ## Funcionalidades
 - O utilizador escolhe o ordinal do agente (1, 2 ou 3).
